@@ -1,9 +1,9 @@
 from reptile_factory.factory import ReptileFactory
 
 # 根据关键词查询小说列表
-# reptile_factory = ReptileFactory()
-# novel_list = reptile_factory.get_novels_by_keyword('我的老千生涯')
-# print(novel_list)
+reptile_factory = ReptileFactory()
+novel_list = reptile_factory.get_novels_by_keyword('九灯和善')
+print(novel_list)
 
 # 查询小说详情
 # target_url = 'https://www.biquge5200.cc/75_75847/'
